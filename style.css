@@ -1,0 +1,133 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font-family: "Larsseit", sans-serif;
+  vertical-align: baseline;
+}
+a {
+  text-decoration: none;
+}
+/* styles for first section  */
+.info {
+  padding-left: 6.6em;
+}
+
+.info__header {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 1em;
+  padding-bottom: 7em;
+}
+.title {
+  color: #62d0df;
+  font-size: 0.8em;
+  line-height: 95%;
+}
+.info__nav {
+  display: flex;
+  gap: 1em;
+  font-size: 0.51em;
+  line-height: 95%;
+  text-align: end;
+  padding-top: 0.3em;
+}
+.nav__link {
+  color: #22356f;
+}
+.nav__link:hover {
+  border-bottom: 1em solid #22356f;
+  border-width: 0.09em;
+  font-weight: 600;
+}
+.info__contact {
+  border-radius: 2em;
+  background-color: #62d0df;
+  border: none;
+  color: #ffffff;
+  font-size: 0.5em;
+  padding: 0.7em 1em;
+  font-weight: bold;
+}
